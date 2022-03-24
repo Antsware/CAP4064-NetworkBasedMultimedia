@@ -1,3 +1,9 @@
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     background-color: #ccc;
 }
@@ -22,7 +28,8 @@ nav ul {
 nav li {
     display: inline-block;
     font-size: 1.75em;
-    
+    font-family: verdana, Arial, sans-serif;
+    font-weight: bold;
 }
 
 nav li a {
@@ -35,4 +42,78 @@ nav li a {
 
 main {
     clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25em;
+
+}
+
+img {
+    max-width: 100%;;
+    display: block;
+}
+
+footer p {
+    font-size: 0;
+    text-align: center;
+    color: #fff;
+    padding: 0 3em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact{
+    text-align: center;
+}
+
+#weights, #cardio, #training {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#exersises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1p solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt {
+    font-weight: bold;
+
+}
+
+#exercises dd {
+    font-weight: bold;
+    padding: 00.5% 1% 2% 0;
+
+}
+
+#contact a {
+    color: #666600;
+    text-decoration: none;
+
+}
+
+.action {
+    font-style: 1.35em;
+    color: #666600;
+    font-weight: bold;
+
+}
+
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.map { 
+    border: 8px solid #000;
 }
